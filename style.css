@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#derecha {text-align : right}
+#izquierda {text-align : left}
+#centro {text-align: center}
+
+#body {background-color: #5f9ea0 }
+t { color : #57483E; font-size: 75; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;}
+t.c { color : #887162; font-size: 65; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif}
+n { color : #57483E; font-size: 20; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif }
+p {margin: 5px;}
+#cajita {
+  background-color:#5f9ea0;
+  width:800px;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:40px;
+  box-shadow:black 0px 5px 10px;
+
+  padding-top:40px;
+  padding-bottom:40px;
+  }
+
+#cabecera {
+    background-color:#57483E;
+    text-align: center;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow:black 0px 5px 10px;
+    padding: 20px 10px;
+}
+#textbox_grande {
+    height:2000px;
+    font-size:14pt;
+}
+#fondo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
