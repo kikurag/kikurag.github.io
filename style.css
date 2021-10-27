@@ -34,10 +34,7 @@ p {margin: 5px;}
     box-shadow:black 0px 5px 10px;
     padding: 20px 10px;
 }
-#textbox_grande {
-    height:2000px;
-    font-size:14pt;
-}
+
 #fondo {
   position: absolute;
   right: 0;
@@ -45,14 +42,4 @@ p {margin: 5px;}
   min-width: 100%;
   min-height: 100%;
   z-index: -1
-}
-
-/* Add some content at the bottom of the video/page */
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
 }
