@@ -1,0 +1,23 @@
+@keyframes example {
+
+      from { opacity: 1; }
+      to { opacity: 0; }
+
+}
+blink {
+  width: 100px;
+  height: 100px;
+
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+blink2 {
+  animation: blink-animation 2s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
