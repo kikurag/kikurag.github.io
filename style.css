@@ -5,23 +5,25 @@
 #izquierda {text-align : left}
 #centro {text-align: center}
 
-#body {background-color: #5f9ea0 }
-t { color : #57483E; font-size: 75; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;}
+
+tw {color: #9c9da3; font-size: 75; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;}
 t.c { color : #887162; font-size: 65; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif}
 n { color : #57483E; font-size: 20; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif }
 p {margin: 5px;}
 #cajita {
-  background-color:#5f9ea0;
+  border:1px solid #5a537e;
+  border-radius: 6px;
+
+  background-color:#242426;
   width:800px;
   height:auto;
   margin-left:auto;
   margin-right:auto;
   margin-top:40px;
-  box-shadow:black 0px 5px 10px;
-
   padding-top:40px;
   padding-bottom:40px;
   }
+
 
 #cabecera {
     background-color:#57483E;
