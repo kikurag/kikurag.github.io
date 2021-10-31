@@ -7,7 +7,9 @@
 #fulljustify {
   text-align: justify;
 }
-
+opacity05{
+  opacity: 0.5;
+}
 #key {
 
   letter-spacing: -.020em;
