@@ -78,5 +78,9 @@ purple{
 @media screen and (max-width: 800px) {
   .left, .main, .right, #cajita {
     width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-top:10px;
+    padding-bottom:10px;
   }
 }
