@@ -4,9 +4,22 @@
 #derecha {text-align : right}
 #izquierda {text-align : left}
 #centro {text-align: center}
+#fulljustify {
+  text-align: justify;
+}
 
+#key {
 
-tw {color: #9c9da3; font-size: 15px; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;}
+  letter-spacing: -.020em;
+  font-size: 16px;
+  font-family:monospace;
+  display: block;
+  overflow: auto;
+  padding: 8px;
+  margin-top: 1em;
+}
+
+tw {color: #9c9da3; font-size: 15px; font-family: modern;}
 t.c { color : #887162; font-size: 65; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif}
 n { color : #57483E; font-size: 20; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif }
 p {margin: 5px;}
@@ -24,7 +37,9 @@ p {margin: 5px;}
   padding-bottom:40px;
   }
 
-
+purple{
+  color: #3500D3;
+}
 #cabecera {
     background-color:#57483E;
     text-align: center;
