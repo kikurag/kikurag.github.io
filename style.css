@@ -1,9 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#derecha {text-align : right}
-#izquierda {text-align : left}
-#centro {text-align: center}
+
 #fulljustify {
   text-align: justify;
 }
@@ -30,11 +28,9 @@ p {margin: 5px;}
   color: #9c9da3;
   border:1px solid #5a537e;
   border-radius: 6px;
-
   background-color:#242426;
   width: 60%;
   height: 90%;
-
   margin-left:auto;
   margin-right:auto;
   margin-top:40px;
@@ -76,11 +72,15 @@ purple{
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
-  .left, .main, .right, #cajita {
+  .left, .main, .right, #cajita,#key {
     width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
     margin-top:10px;
+    font-size: 9px;
     margin-bottom:10px;
     padding-top:10px;
     padding-bottom:10px;
+  }
+  begend{
+    font-size: 16px;
   }
 }
