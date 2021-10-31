@@ -19,11 +19,13 @@
   margin-top: 1em;
 }
 
-tw {color: #9c9da3; font-size: 15px; font-family: modern;}
+tw {color: #9c9da3; font-size: 20px; font-family: modern;}
+begend {color: #3500D3;color: #9c9da3; font-size: 30px; font-family: modern;}
 t.c { color : #887162; font-size: 65; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif}
 n { color : #57483E; font-size: 20; font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif }
 p {margin: 5px;}
 #cajita {
+  color: #9c9da3;
   border:1px solid #5a537e;
   border-radius: 6px;
 
