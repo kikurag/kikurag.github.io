@@ -26,10 +26,11 @@ n { color : #57483E; font-size: 20; font-family: Avantgarde, TeX Gyre Adventor, 
 p {margin: 5px;}
 #cajita {
   color: #9c9da3;
+  color: #737766;
   border:1px solid #5a537e;
   border-radius: 6px;
   background-color:#242426;
-  width: 60%;
+  width: 55%;
   height: 90%;
   margin-left:auto;
   margin-right:auto;
